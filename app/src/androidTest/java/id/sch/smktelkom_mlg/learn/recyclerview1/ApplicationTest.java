@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.learn.recyclerview2;
+package id.sch.smktelkom_mlg.learn.recyclerview1;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
