@@ -44,8 +44,8 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.MyHolder> {
         MyHolder myHolder = holder;
         databerita current = data.get(position);
         myHolder.textTitle.setText(current.title);
-        myHolder.textAuthor.setText("Author: " + current.author);
-        myHolder.textContent.setText("Berita: " + current.content);
+        myHolder.textAuthor.setText(current.author);
+        myHolder.textContent.setText(current.content);
 
         Glide.with(context).load("http://dev.republika.co.id/android/latest/smktelkom/" + current.thumbnail)
                 .into(myHolder.imgpic1);
